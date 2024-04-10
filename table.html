@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="table.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <a href="C:\Users\1\OneDrive\Документы\вуз\3 курс\JS\html\lab1.html">Основная страница</a>
+            <a href="C:\Users\1\OneDrive\Документы\вуз\3 курс\JS\html\lab2.html">Позиционирование элементов</a>
+            <a href="C:\Users\1\OneDrive\Документы\вуз\3 курс\JS\html\table.html">Таблицы</a>
+        </div>
+        <!--Форма-->
+        <form id="formfilm">
+            <fieldset>
+                <legend>Фильмы</legend>
+                    <label for="fname" name="fname">Название:</label><br>
+                    <input type="text" id = "fname" name="fname" value="Драйв"><br>
+        
+                    <label for="fdate" name="fdate">Год выхода/Дата выхода</label><br>
+                    <input type="date"  name="fdate" id = "fdate"><br>
+            
+                    <label name="fgenre"> Жанр</label><br>
+                    <input name="fgenre" type="checkbox" id = "detective" >
+                    <label name="fgenre" for="detective">Криминал</label><br>
+                    <input name="fgenre" type="checkbox" id = "comedy" >
+                    <label name="fgenre" for="comedy">комедия</label> <br>
+                    <input name="fgenre" type="checkbox" id = "action" >
+                    <label name="fgenre" for="action">приключения</label> <br>
+                    <input name="fgenre" type="checkbox" id = "fantazy" >
+                    <label name="fgenre" for="fantazy">фэнтези</label><br>
+                    <input name="fgenre" type="checkbox" id = "fight" >
+                    <label name="fgenre" for="fight">боевик</label><br>
+                    <input name="fgenre" type="checkbox" id = "tril" >
+                    <label name="fgenre" for="tril">триллер</label><br>
+                    <input name="fgenre" type="checkbox" id = "drama" >
+                    <label name="fgenre" for="drama">драма</label><br>
+                    <label for="fr">Радио кнопка</label><br>
+                    <input type="radio" id="fr">
+                    
+                    <label name="fcountry" for="fcountry">Страна</label><br>
+                    <input name="fcountry" type="text" id = "fcountry" value="Россия"><br>
+                    <label name="fkp" for="fkp">Рейтинг на кинопоиске</label><br>
+                    <input name="fkp" type="number" id = "fkp" value="7.8" max="10.0" min="0.0" step="0.1"><br>
+
+                    <label name="fme" for="fme">Личный рейтинг</label> <br>
+                    <select name="fme" id = "fme" size="1"><br>
+                        <option value="1/10">1/10</option>
+                        <option value="2/10">2/10</option>
+                        <option value="3/10">3/10</option>
+                        <option value="4/10">4/10</option>
+                        <option value="5/10">5/10</option>
+                        <option value="6/10">6/10</option>
+                        <option value="7/10">7/10</option>
+                        <option value="8/10">8/10</option>
+                        <option value="9/10">9/10</option>
+                        <option value="10/10">10/10</option>
+            </select>
+        </fieldset>
+            <input type="submit" value="Отправить">
+        </form>
+        <!--Таблицы-->
+        <table>
+            <colgroup >
+                <col span="2" style="background-color: rgba(34, 255, 244, 0.644);" >
+            </colgroup>
+            <caption>Фильмы (с Райном Гослингом)</caption>
+            <tr><!--Начало строки-->
+                <th>Название</th><!--заголовок столбца-->
+                <th>Год выхода</th> 
+                <th>Жанр</th>
+                <th>Страна</th>
+                <th>Рейтинг на кинопоиске</th>
+                <th>Мой личный рейтинг</th>   
+                <th>Описание</th>
+            </tr>
+            <tr>
+                <td>Барби</td><!--ячейка-->
+                <td>2023</td>
+                <td>комедия, приключения, фэнтези</td>
+                <td>США, Великобритания</td>
+                <td>6.7</td>
+                <td>8/10</td>
+            </tr>
+            <tr>
+                <td>Бегущий по лезвию 2049</td><!--ячейка-->
+                <td>2017</td>
+                <td>фантастика, боевик, триллер, драма</td>
+                <td>США, Великобритания, Канада, Испания</td>
+                <td>7.8</td>
+                <td>11/10</td>
+            </tr>
+            <tr>
+                <td>Славные парни</td><!--ячейка-->
+                <td>2016</td>
+                <td>криминал, комедия, боевик</td>
+                <td>США, Великобритания</td>
+                <td>7.3</td>
+                <td>8/10</td>
+            </tr>
+            <tr>
+                <td>Ла-Ла Ленд</td><!--ячейка-->
+                <td>2016</td>
+                <td>мюзикл, драма, мелодрама, комедия, музыка</td>
+                <td>США, Гонконг</td>
+                <td>8.0</td>
+                <td>9/10</td>
+            </tr>
+            <tr>
+                <td>Место под соснами </td><!--ячейка-->
+                <td>2012</td>
+                <td>триллер, драма, криминал</td>
+                <td>США</td>
+                <td>7.3</td>
+                <td>10/10</td>
+            </tr>
+            <tr>
+                <td>Место под соснами </td><!--ячейка-->
+                <td>2012</td>
+                <td>триллер, драма, криминал</td>
+                <td>США</td>
+                <td>7.3</td>
+                <td>10/10</td>
+                <td>интересный</td>
+            </tr>
+        </table>
+    </body>
+</html>

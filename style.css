@@ -1,0 +1,141 @@
+body {
+    background: fixed;
+    background-color: black; 
+    color: aliceblue; 
+    text-align: center; 
+    font-family: "Verdana";}
+h1,h2{text-align: center;  font-size:medium; color:#fafdfd; margin: 20px; padding: 4px;font-size: 250%;}
+p,pre{ text-align: center;  font-size:medium; color:#ffffffef; margin: 20px; padding: 4px;font-size: 200%; 
+    width: 80%;}
+a{ margin: 5px;}
+ol,ul.number {font-size:medium; color:#c522c5ef; margin: 50px; padding: 20px;font-size: 180%;}
+img{
+    text-align: center;
+    width: 30%;
+}
+
+.content {  margin: 20px; display: flex; flex-direction: row; justify-content: space-between;
+     flex-wrap: nowrap;
+    background-image: url("фон1.jpg");
+    border: 4px outset white;
+    }
+.content-left{
+    background: local;
+    background-color: #121114a2 ;
+    width: 50%;
+    color: rgb(250, 250, 250);
+    margin: 20px;
+    padding: 20px;
+}
+.content-right{
+    width: 60%;
+    background: local;
+    /*background-image:url("C:\Users\1\OneDrive\Документы\вуз\3 курс\JS\html\class\podlozhka.jpg") ;*/
+    /*background-color: black;*/
+    color: rgb(250, 250, 250);
+    margin: 20px;
+}
+
+p.content-left{
+
+    background: local;
+    background-image:url("фон4.jpg");
+    border: 2px outset white;
+    border-radius: 15px;
+    width: 90%;
+    /*font-size: 100%;*/
+}
+p.fakts{
+    background: local;
+    border: 2px outset rgb(168, 4, 114);
+    border-radius: 15px;
+    width: 90%;
+     /*font-size: 100%;*/
+}
+img.fakts{
+    width: 70%;
+    border: 2px outset white;
+    border-radius: 15px;
+}
+
+img.content-right{
+    margin: 0, auto;
+    padding: 10px;
+    width: 90%;
+}
+.block {  
+    /*width: 100%;*/
+    margin: 20px; display: flex; flex-direction: row; 
+    border: 2px outset rgb(170, 26, 115);
+    background-color:  rgb(170, 26, 115);
+ }
+h2.glav{
+    margin: 60px; padding: 10px;
+    background: local;
+    background-color: black;
+    text-align: center;
+    border: 2px outset rgb(170, 26, 115);
+    /*width: 100%;*/
+    color: rgb(252, 252, 252);
+}
+.image_movies{ 
+    display: flex; flex-direction: column;  justify-content:center; flex-wrap: wrap; align-items: center;
+    width:100%; padding: 0%;
+    background-color: black ;
+
+}
+
+
+.mem-cat {  margin: 2px; display: flex; flex-direction: row; justify-content: center;}
+    img.mem-cat{
+        text-align: center; width: 500px;
+    }
+.text{
+    background-color:  rgb(0, 0, 0);   background-repeat: no-repeat;  background-attachment: scroll; 
+    background-size: cover;
+    display: flex; flex-direction: column;
+    color:#ffffff;
+    border: 2px outset white; 
+    width:50%;
+    /*font-size: 70%;*/
+}
+
+.image_music{
+    display: flex; flex-direction: row;  justify-content: space-between; flex-wrap: nowrap;
+    width:50%; padding: 0%;
+}
+
+
+.header{ display: flex; flex-direction: row;  justify-content:right; margin: 20px; padding: 20px; }
+/*horizontal*/
+.container{ background-color:  rgb(170, 26, 115);
+    padding: 40px; margin: 20px 40px; }
+.block_container{ width: 200px; height: 200px; background-color: #62cdff;
+    margin-left: auto; margin-right: auto;}
+.container_image{ width: 200px; display: block;
+    margin-left: auto; margin-right: auto;}
+/*vertical+horizontal*/
+.container_2{ background-color:  rgb(255, 255, 255); 
+                display: flex; align-items: center;
+                padding: 40px; margin: 20px 40px;
+            }
+.block_container2{ width: 200px; height: 200px; background-color: #7425a1;
+        margin-left: auto; margin-right: auto;
+    }
+/*flex*/
+.container_3{background-color: #7425a1; border: 2px outset whitesmoke;
+display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;}
+.block_container3{ width: 200px; height: 200px; background-color: #d8ffe1;
+     margin: 10px;}
+/*position*/
+
+.p_block1{width: 200px; height: 200px; border: 4px outset chartreuse;
+     margin: auto; position: relative;}
+.p_block2{width: 200px; height: 200px; border: 4px outset #7425a1; 
+    
+position:absolute; left: 300px; right:300px;}
+.p_block3{width: 200px; height: 200px; border: 4px outset  #62cdff; 
+    
+    position:absolute; left: 300px; right:200px;  }
+
+.p_block_fixed{width: 100px; height: 100px; position: fixed; right:0;bottom:0;}
